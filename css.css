@@ -1,0 +1,76 @@
+body#layout .hide{display:block;}
+body#layout .box{width:100%;}
+body#layout .widget{height:auto!important;float:none;}
+body#layout .section h4{display:none;}
+body#layout .section{background-color:#ffffff!important;background-color:#ffffff;border-top:none!important;padding:10px!important;width:auto!important;margin:0!important;height:auto!important;float:none;}
+body#layout .section-label{padding:10px;display:block;}
+body#layout div.layout-title{font-size:16px;text-transform:capitalize;}
+body#layout{padding-bottom:20px!important;background-color:#f8f8f8!important;}
+body#layout div.layout-widget-description{display:none!important;}
+body#layout .section>div.dropregion:last-child{clear:both;}
+body#layout .section-label .widget-content{background:none;border:none;}
+body#layout .section-label .widget-content div.layout-title{font-size:30px;}
+body#layout .section-label .editlink{display:none;}
+body#layout .locked-widget .widget-content{background-color:#f8f8f8;box-shadow:none!important;}
+body#layout .admin-panel{background:#052352;overflow:hidden;max-width:1200px;margin:0 2%;}
+body#layout .admin-panel:before{content:'TEMPLATE OPTION';font-size:17px;font-family:monospace;font-weight:600;color:#fff;text-transform:uppercase;letter-spacing:2px;background:#052352;padding:20px;display:block;border-bottom:1px solid #ffffff52;}
+body#layout .admin-panel div.widget{width:47.11111111%;float:left;margin:10px;margin-top:0!important;}
+body#layout .admin-panel .section{background-color:#052352!important;margin:0!important;padding:30px 0!important;border:0!important;}
+body#layout .admin-panel .locked-widget .widget-content{background-color:#052352;color:#fff;box-shadow:0 0 10px #e04814!important;}
+body#layout .admin-panel .editlink{color:#052352!important;background:#fff;padding:0 10px!important;border-radius:5px;}
+/*======== PAGE LAYOUT:HEADER ========*/
+body#layout #topnav1{height:auto;padding-top:20px;}
+body#layout #top-menu{float:left;width:49%;}
+body#layout #top-social{float:right;width:49%;}
+body#layout #header-content{display:block;padding:20px 0;}
+body#layout .home-icon{display:none;}
+body#layout #top-menu:before{content:'القائمة  العلوية';font-size:17px;font-family:tahoma;font-weight:600;color:#000;text-transform:uppercase;background:#fff;padding:20px;display:block;border:1px solid #ccc;border-bottom:none;}
+body#layout .logo:before{content:'اللوجو';font-size:17px;font-family:tahoma;font-weight:600;color:#000;text-transform:uppercase;background:#fff;padding:20px;display:block;border:1px solid #ccc;border-bottom:none;}
+body#layout .logo{width:30%;float:left;}
+body#layout .header-menu{width:67%;float:right;}
+body#layout #menu-wrap-andalus{height:inherit;}
+body#layout .menu:before{content:'القائمة  الرئيسية';font-size:17px;font-family:tahoma;font-weight:600;color:#000;text-transform:uppercase;background:#fff;padding:20px;display:block;border:1px solid #ccc;border-bottom:none;}
+/*======== PAGE LAYOUT:INTRO SLIDER POSTS ========*/
+body#layout #intro-slider{padding:20px 0;overflow:hidden;}
+body#layout #intro-slider:before{content:'السلايد  الكبير';font-size:17px;font-family:tahoma;font-weight:600;color:#000;text-transform:uppercase;background:#fff;padding:20px;display:block;border:1px solid #ccc;border-bottom:none;margin-left:2%;margin-right:2%;}
+body#layout #intro-slider #HTML937 .widget-content{color:#fff;margin-top:20px;background:#052352!important;}
+body#layout #intro-slider #HTML937 .widget-content .editlink{color:#757575!important;background:#fff;padding:0 10px;border-radius:10px;line-height:15px;}
+body#layout #intro-slider #HTML937:before{content:"";width:0;height:0;border-left:12px solid transparent;border-right:12px solid transparent;border-bottom:12px solid #052352;position:absolute;left:50%;margin:auto;right:0;margin-left:-12px;top:-12px;}
+body#layout .f-p:before{content:'السلايد  الثاني';font-size:17px;font-family:tahoma;font-weight:600;color:#000;text-transform:uppercase;background:#fff;padding:20px;display:block;border:1px solid #ccc;border-bottom:none;margin-left:2%;margin-right:2%;}
+/*======== PAGE LAYOUT:CONTENT WRAPPER ========*/
+body#layout #main-wrapper{margin-top:20px;}
+body#layout #content-wrapper{width:69%;float:right;}
+body#layout #content-wrapper:before{content:'المواضيع';font-size:17px;font-family:tahoma;font-weight:600;color:#000;text-transform:uppercase;background:#fff;padding:20px;display:block;border:1px solid #ccc;border-bottom:none;}
+body#layout #post-ad .widget-content{background:#fff59d!important;}
+body#layout #post-ad .editlink{color:#757575!important;background:#fff;padding:0 10px;border-radius:10px;line-height:15px;}
+body#layout #post-home-style{border-bottom:0!important;}
+body#layout #post-home-style:after{content:"";width:0;height:0;border-left:12px solid transparent;border-right:12px solid transparent;border-top:12px solid #052352;position:absolute;left:50%;margin:auto;right:0;margin-left:-12px;bottom:0;}
+body#layout #post-home-style .widget-content{color:#fff;background:#052352!important;}
+body#layout #post-home-style .editlink{color:#757575!important;background:#fff;padding:0 10px;border-radius:10px;line-height:15px;}
+/*======== PAGE LAYOUT:SIDEBAR WRAPPER ========*/
+body#layout #sidebar-wrapper{overflow:visible;width:30%;float:left;}
+body#layout #sidebar-wrapper:before{content:'السيدبار';font-size:17px;font-family:tahoma;font-weight:600;color:#000;text-transform:uppercase;background:#fff;padding:20px;display:block;border:1px solid #ccc;border-bottom:none;}
+/*======== PAGE LAYOUT:FOOTER ========*/
+body#layout #footer-wrap-andalus{overflow:auto;width:100%;}
+body#layout .footer-col:before{content:'الفوتر';font-size:17px;font-family:tahoma;font-weight:600;color:#000;text-transform:uppercase;background:#fff;padding:20px;display:block;border:1px solid #ccc;border-bottom:2px solid #ccc;margin-top:20px;}
+body#layout #column1,body#layout #column2,body#layout #column3,body#layout #column4{width:24.9333%;float:left;}
+/*======== PAGE LAYOUT:FOOTER SOCIAL ICONS ========*/
+body#layout .footer-social-icons{width:49%;float:right;}
+body#layout .footer-social-icons:before{content:'ايقونات  الفوتر';font-size:17px;font-family:tahoma;font-weight:600;color:#000;text-transform:uppercase;background:#fff;padding:20px;display:block;border:1px solid #ccc;border-bottom:none;}
+/*======== PAGE LAYOUT:FOOTER SOCIAL MENU ========*/
+body#layout .footer-menu{width:49%;float:right;}
+
+/*------ CSS make anti copy paste except by:www.arabes1.com ------*/
+.post-outer {
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-ms-user-select:none;
+-moz-user-select:none;} 
+
+.post blockquote,.post pre,.post code{
+-webkit-touch-callout:text;
+-webkit-user-select:text;
+-khtml-user-select:text;
+-ms-user-select:text;
+-moz-user-select:text;}
